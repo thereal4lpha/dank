@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirc/ by alpha/3.x [XR&CO'2014], Tue, 18 Oct 2022 11:15:30 GMT -->
+<!-- Added by alpha --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by alpha -->
+<head>
+<title>alpha</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/cte.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RD5B41KFXM"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RD5B41KFXM');
+  </script>
+</head>
+<body>
+<div id="particles-container"></div>
+<audio controls hidden loop>
+<source src="assets/audio/song.mp3" type="audio/mpeg">
+</audio>
+<div id="content-container">
+<div class="center title topbar"><img class="emoji" src="assets/images/seperator.png"> thereal4lpha.github.io <img class="emoji" src="assets/images/seperator.png"></div>
+<span id="typing" class="center"></span>
+<div class="inline-container bottombar center">
+
+<pre style="display: inline-block;">|<div style="vertical-align: middle;" id="marquee"></div>|</pre>
+</div>
+</div>
+<script src="assets/particles.js/particles.min.js"></script>
+<script src="assets/particles.js/app.js"></script>
+<script src="assets/js/cte.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.marquee.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    // var CTE = {};
+    CTE.callback = () => {
+      var aud = document.getElementsByTagName("audio")[0];
+      aud.volume = .3;
+      aud.play();
+
+      var typed = new Typed("#typing", {
+        strings: ["destroying kids dreams since 2020", "i own you tho", "ex raider and nuker", "owner of night", "programmer and writer", "allergic to dank kids", "therealalpha#6969"],
+        typeSpeed: 30,
+        backspeed: 20,
+        showCursor: false
+      });
+
+      var lines = ["contact me if you wanna.", "i'll try to reply", "youtube.com/channel/UCABU5X4-HQnSDrsHN04JKWw"];
+      for (var x = 0;x < lines.length;x++)
+        $("#marquee").append(`${lines[x]}${(x < lines.length - 1? ' <img class="emoji" src="/assets/images/seperator.png"> ' : '')}`);
+
+      $("#marquee").marquee({
+        duration: 7500,
+        gap: 100,
+        delayBeforeStart: 1000,
+        direction: 'left',
+      });
+    }
+    // CTE.callback();
+  </script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'75c0db359adbf296',m:'KwedYp8Y_r7BnR9T.jWpYTzD0iK1OVBWq8m.PZKKIyY-1666091729-0-AQBT3sbbenqpcBjOXvtLWCKEFb8WKrSZa+8+8li2hDXVQzsCixyejvsPjwa1HP8zKHAdVGWwFW6+0lGzMRbhIL0Q7ott504xXXeb5Kk5V08wmLgbzZOkUffyEWzT5PsabA==',s:[0x7f57ddaae2,0x2772f6370c],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!--  by alpha/3.x [XR&CO'2014], Tue, 18 Oct 2022 11:15:33 GMT -->
+</html>
